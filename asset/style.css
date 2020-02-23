@@ -1,0 +1,260 @@
+/* Navbar */
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.judul-pendahuluan{
+    margin-top: 50px;
+}
+
+/* Jumbotron */ 
+.jumbotron {
+        
+        background-size: cover;
+        height: 540px;
+        text-align: center;
+    }
+
+.jumbotron .display-4{
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.jumbotron .sub-display{
+    color: white;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+}
+
+/* LFD News */
+
+  .row .icon-satu{
+        margin-left: 12px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .content-satu{
+        margin-top: 10px;
+    }
+    .content-satu a{
+        text-decoration: none;
+    }
+
+    .content-satu a h5{
+        color: black;
+        margin-top: -40px;
+        margin-left: 40px;
+    }
+
+    .content-satu a h5:hover{
+        color: rgb(80, 159, 233);
+        
+    }
+
+.row .judul{
+    font: 22px/28px arial, sans-serif;
+    margin-left: 12px;
+}
+
+.garis{
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.garis-dua{
+    border: 1px solid #eaeaea; 
+}
+
+.row .icon-satu{
+    margin-left: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.content-satu{
+    margin-top: 10px;
+}
+
+.inner{
+	overflow: hidden;
+}
+
+.inner img{
+	transition: all 1.5s ease;
+}
+
+.inner:hover img{
+	transform: scale(1.5);
+}
+
+.card-body{
+	color: black;
+	background-color: #EEE9E9;
+}
+
+/* Akhir LFD News */
+
+/*  Quotes */
+.quotes {
+    margin-top: 100px;
+}
+
+.quotes h5{
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+    margin-top: -15px;
+}
+
+.quotes figure img.utama{
+    width: 90px;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.quotes figure h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.quotes figure p{
+    font-size: 12px;
+    
+    
+}
+
+.quotes figcaption{
+    text-align: center ;
+}
+/* Akhir Quotes */
+
+/* Footer */
+.footer {
+    margin-top:50px;
+    
+}
+.footer p{
+    color: #ACACAC;
+    font-size: 15px;
+    
+}
+/* Akhir Footer */
+/* Utility */
+.margin-prosedur {
+    margin-top: 30px;
+}
+
+.card-prosedur{
+    margin-top: 10px;
+    margin-left: -15px;
+    
+}
+
+
+/* Akhir Utility */
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0 , 0, 0.7)
+     
+    }
+
+    .navbar a {
+        
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-link {
+        
+        margin-right: 20px;
+    }
+
+    .nav-item{
+        font-weight:bold;
+    }
+   
+    .nav-link:hover {
+        color: rgb(22, 125, 194) !important;
+        
+    }
+
+    .footer p{
+        color: #ACACAC;
+        font-size: 20px;
+        
+    }
+
+    .jumbotron{
+        margin-top:-75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .row .judul{
+        font: 32px/28px arial, sans-serif;
+        margin-left: 12px;
+    }
+    
+    .garis{
+        border: 1px solid black;
+        margin-top: 15px;
+    }
+    
+    .garis-dua{
+        border: 1px solid #eaeaea; 
+    }
+    
+    .row .icon-satu{
+        margin-left: 12px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .content-satu{
+        margin-top: 10px;
+    }
+    .content-satu a{
+        text-decoration: none;
+    }
+
+    .content-satu a h5{
+        color: black;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .content-satu a h5:hover{
+        color: rgb(80, 159, 233);
+        
+    }
+
+    .card-prosedur{
+        margin-top: 5px;
+        margin-left: 0%;
+    }
+
+    .quotes h5{
+        font-size: 32px;
+    }
+   
+ }

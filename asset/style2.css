@@ -1,0 +1,265 @@
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 32px;
+}
+
+.judul-pendahuluan{
+    margin-top: 50px;
+}
+
+/* Footer */
+.footer {
+    color: rgb(20, 18, 18);
+    font-size:13px; 
+    position:relative; 
+    margin-bottom:0; 
+    margin-top:340px;
+}
+/* Akhir Footer */
+
+/* Utility */
+
+
+.row .judul{
+    font-family: 'Raleway', sans-serif;
+    font: 32px/28px ;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(57, 184, 235);
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+/* Fasilitas */
+.fasilitas{
+    font-weight: bold;
+    
+}
+.jenis-alat {
+    font-weight: lighter;
+}
+.alat {
+    font-weight: lighter;
+    margin-top: -15px;
+}
+.benda-first{
+    font-weight: lighter;
+    margin-left: 60px;
+    margin-top: -35px;
+}
+.benda{
+    font-weight: lighter;
+    margin-left: 60px;
+    margin-top: -15px;
+}
+
+.jumlah-alat-first{
+    margin-top: 15px;
+}
+
+.jumlah-alat{
+    margin-top: -15px;
+}
+
+/* Akhir Fasilitas */
+
+.modul{
+    margin-bottom: -2px;
+}
+
+.input-kelas {
+    margin-top: 20px;
+}
+
+.keterangan {
+
+    margin-bottom: 4px;
+    font-size: 15px;
+   text-align: justify;
+
+}
+
+.table-kalender{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.jadwal {
+    margin-top: 50px;
+}
+
+.table {
+    font-size: 13px;
+}
+
+.kontent{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+}
+
+.card-profil{
+    width: 250px;
+}
+.img-fluid {
+    width: 100px;
+    height: 100px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    
+}
+
+.text-profil{
+    text-align: center;
+}
+
+/* Tata Tertib */
+
+.isi-paragraph{
+    margin-left: 27px;
+    margin-top: -37px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.ul-ol{
+    margin-top: -15px;
+    margin-left: -40px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    
+}
+
+.number {
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+
+
+/* Akhir Tata Tertib */
+/* Akhir Utility */
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+    color: rgb(40, 84, 90) !important;
+         
+    }
+
+   
+
+    .navbar{
+        box-shadow: 0 2px 2px -2px rgba(0,0,0,0.4);
+    }
+    .navbar a {
+        
+        
+        text-decoration: none;
+        color: black;
+    }
+
+     .nav-item{
+        font-weight:bold;
+     }
+
+    .nav-link {
+        margin-right: 20px;
+        
+    }
+ 
+    .nav-link:hover {
+        color: rgb(22, 125, 194) !important;
+        
+    }
+
+    .row .judul{
+        font-family: 'Raleway', sans-serif;
+        margin-top: 40px;
+        color: rgb(34, 100, 126);
+        font-weight: bold;
+        
+    }
+    
+
+    .garis{
+        border: 1px solid black;
+        margin-top: 15px;    
+    }
+    
+    .kontent{
+        
+        font-size: 20px;
+    }
+
+    .keterangan {
+        margin-top: 20px;
+       font-family: 'Raleway', sans-serif;
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+
+
+    .garis-dua{
+        border: 1px solid #eaeaea; 
+    }
+    
+    .row .icon-satu{
+        margin-left: 12px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer {
+        clear: both;
+        color: rgb(20, 18, 18);
+        font-size:18px; 
+        position:relative; 
+        margin-top: 350px;
+        margin-bottom:auto;
+    }
+
+    .table {
+        font-size: 15px;
+    }
+
+    .table-kalender{
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    /* Tata Tertib */
+
+.ul-ol{
+    margin-top: -25px;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.isi-paragraph{
+    margin-left: 35px;
+    margin-top: -65px;
+    text-align: justify;
+    margin-right: 200px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.number {
+    margin-left: 10px;
+    margin-top: -30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+/* Akhir Tata Tertib */
+ 
+
+
+ 
